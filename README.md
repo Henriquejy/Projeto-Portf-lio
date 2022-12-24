@@ -1,2 +1,2 @@
-# Projeto-Portf-lio
+# Projeto-Portfolio
 Projeto para demonstração do meu portfólio.  
