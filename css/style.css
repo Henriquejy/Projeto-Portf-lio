@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
 
 @keyframes animacao {
-    from{transform: translateX(100px)}
-    to{transform: translateX(105px)}
+    from{transform: translateX(0px)}
+    to{transform: translateX(5px)}
 }
 
 
