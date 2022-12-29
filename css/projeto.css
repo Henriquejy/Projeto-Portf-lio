@@ -165,7 +165,7 @@
 
 }
 
-.card{
+.card1{
     width: 300px;
     height: 300px;
     border-radius: 40%;
@@ -176,13 +176,56 @@
     background-color: #ECD6C4;
     background-image: url('/imagem/497329.png');
     background-position: center;
-    background-size: cover;
+    background-size: 90%;
     background-repeat: no-repeat;
     filter: grayscale(0.5);
     color: black;
     cursor: pointer;
     transition: 0.5s ease-in-out;
     margin: 50px;
+    
+    
+}
+.card2{
+    width: 300px;
+    height: 300px;
+    border-radius: 40%;
+    margin: 3rem 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ECD6C4;
+    background-image: url('/imagem/path1028.png');
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    filter: grayscale(0.5);
+    color: black;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    margin: 50px;
+    
+    
+}
+.card3{
+    width: 300px;
+    height: 300px;
+    border-radius: 40%;
+    margin: 3rem 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ECD6C4;
+    background-image: url('/imagem/path1028.png');
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    filter: grayscale(0.5);
+    color: black;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    margin: 50px;
+    
     
 }
 
@@ -231,21 +274,53 @@
     font-family: 'Righteous', cursive;
 }
 
-.card:hover{
+.card1:hover{
+    filter: unset;
+}
+.card2:hover{
+    filter: unset;
+}
+.card3:hover{
     filter: unset;
 }
 
-.card:hover > .card-wrapper::before {
+.card1:hover > .card-wrapper::before {
+    height: 200px;
+    width: 200px;
+    opacity: 1;
+}
+.card2:hover > .card-wrapper::before {
     height: 200px;
     width: 200px;
     opacity: 1;
 }
 
-.card:hover > .card-wrapper p{
+.card3:hover > .card-wrapper::before {
+    height: 200px;
+    width: 200px;
+    opacity: 1;
+}
+
+.card1:hover > .card-wrapper p{
+    opacity: 1;
+    visibility: visible;
+    font-size: 40px;
+    color: #55e80c;
+}
+
+.card2:hover > .card-wrapper p{
     opacity: 1;
     visibility: visible;
     font-size: 14px;
 }
+
+.card3:hover > .card-wrapper p{
+    opacity: 1;
+    visibility: visible;
+    font-size: 14px;
+}
+
+
 
 
 
