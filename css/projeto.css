@@ -264,6 +264,15 @@
     font-family: 'Righteous', cursive;
 }
 
+.card-wrapper p{
+    font-size: 0;
+    visibility: visible;
+    opacity: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.5s ease-in-out;
+    font-family: 'Righteous', cursive;
+}
 
 .card1:hover{
     filter: unset;
